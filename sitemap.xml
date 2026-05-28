@@ -5,7 +5,15 @@
          <lastmod>2026-05-28</lastmod>
     </url>
     <url>
-         <loc>https://docs.jangkau.ai/kosongan/</loc>
+         <loc>https://docs.jangkau.ai/booking/</loc>
+         <lastmod>2026-05-28</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.jangkau.ai/chat/</loc>
+         <lastmod>2026-05-28</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.jangkau.ai/lead/</loc>
          <lastmod>2026-05-28</lastmod>
     </url>
     <url>
@@ -18,6 +26,18 @@
     </url>
     <url>
          <loc>https://docs.jangkau.ai/reset-password/</loc>
+         <lastmod>2026-05-28</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.jangkau.ai/support/</loc>
+         <lastmod>2026-05-28</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.jangkau.ai/umum/</loc>
+         <lastmod>2026-05-28</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.jangkau.ai/website/</loc>
          <lastmod>2026-05-28</lastmod>
     </url>
 </urlset>
