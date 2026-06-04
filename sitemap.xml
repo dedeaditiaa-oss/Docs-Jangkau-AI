@@ -2,70 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.jangkau.ai/</loc>
-         <lastmod>2026-05-29</lastmod>
+         <lastmod>2026-06-04</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.jangkau.ai/agen/</loc>
+         <lastmod>2026-06-04</lastmod>
     </url>
     <url>
          <loc>https://docs.jangkau.ai/booking/</loc>
-         <lastmod>2026-05-29</lastmod>
+         <lastmod>2026-06-04</lastmod>
     </url>
     <url>
          <loc>https://docs.jangkau.ai/chat/</loc>
-         <lastmod>2026-05-29</lastmod>
+         <lastmod>2026-06-04</lastmod>
     </url>
     <url>
          <loc>https://docs.jangkau.ai/lead-file/</loc>
-         <lastmod>2026-05-29</lastmod>
+         <lastmod>2026-06-04</lastmod>
     </url>
     <url>
          <loc>https://docs.jangkau.ai/lead-katalog/</loc>
-         <lastmod>2026-05-29</lastmod>
+         <lastmod>2026-06-04</lastmod>
     </url>
     <url>
          <loc>https://docs.jangkau.ai/lead-kategori/</loc>
-         <lastmod>2026-05-29</lastmod>
+         <lastmod>2026-06-04</lastmod>
     </url>
     <url>
          <loc>https://docs.jangkau.ai/lead-klasifikasi/</loc>
-         <lastmod>2026-05-29</lastmod>
+         <lastmod>2026-06-04</lastmod>
     </url>
     <url>
          <loc>https://docs.jangkau.ai/lead-pengaturan/</loc>
-         <lastmod>2026-05-29</lastmod>
+         <lastmod>2026-06-04</lastmod>
     </url>
     <url>
          <loc>https://docs.jangkau.ai/lead-penomoran/</loc>
-         <lastmod>2026-05-29</lastmod>
+         <lastmod>2026-06-04</lastmod>
     </url>
     <url>
          <loc>https://docs.jangkau.ai/lead-qna/</loc>
-         <lastmod>2026-05-29</lastmod>
+         <lastmod>2026-06-04</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.jangkau.ai/pembayaran/</loc>
+         <lastmod>2026-06-04</lastmod>
     </url>
     <url>
          <loc>https://docs.jangkau.ai/pengenalan/</loc>
-         <lastmod>2026-05-29</lastmod>
+         <lastmod>2026-06-04</lastmod>
     </url>
     <url>
          <loc>https://docs.jangkau.ai/platform/</loc>
-         <lastmod>2026-05-29</lastmod>
+         <lastmod>2026-06-04</lastmod>
     </url>
     <url>
          <loc>https://docs.jangkau.ai/registrasi-dan-login/</loc>
-         <lastmod>2026-05-29</lastmod>
+         <lastmod>2026-06-04</lastmod>
     </url>
     <url>
          <loc>https://docs.jangkau.ai/reset-password/</loc>
-         <lastmod>2026-05-29</lastmod>
+         <lastmod>2026-06-04</lastmod>
     </url>
     <url>
          <loc>https://docs.jangkau.ai/support/</loc>
-         <lastmod>2026-05-29</lastmod>
+         <lastmod>2026-06-04</lastmod>
     </url>
     <url>
          <loc>https://docs.jangkau.ai/umum/</loc>
-         <lastmod>2026-05-29</lastmod>
+         <lastmod>2026-06-04</lastmod>
     </url>
     <url>
          <loc>https://docs.jangkau.ai/website/</loc>
-         <lastmod>2026-05-29</lastmod>
+         <lastmod>2026-06-04</lastmod>
     </url>
 </urlset>

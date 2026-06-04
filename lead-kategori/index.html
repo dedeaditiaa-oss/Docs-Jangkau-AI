@@ -77,6 +77,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#kategori-lead" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -828,6 +833,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kategori
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -845,6 +870,58 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cara-mengatur-kategori" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🗂️ Cara Mengatur Kategori
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#menambah-menghapus-kategori" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ➕ Menambah &amp; Menghapus Kategori
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#menyimpan-pengaturan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💾 Menyimpan Pengaturan
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -930,6 +1007,60 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Agen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pembayaran/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pembayaran
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -947,6 +1078,49 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cara-mengatur-kategori" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🗂️ Cara Mengatur Kategori
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#menambah-menghapus-kategori" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ➕ Menambah &amp; Menghapus Kategori
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#menyimpan-pengaturan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💾 Menyimpan Pengaturan
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -963,9 +1137,29 @@
 
 
 
-  <h1>Kategori</h1>
-
-
+<h1 id="kategori-lead">🏷️ Kategori Lead</h1>
+<p>Sama seperti fitur Klasifikasi, fitur <strong>Kategori</strong> pada Bot Lead Generation juga memiliki keterkaitan langsung dengan Output Sheet Anda. </p>
+<p>Bedanya, jika klasifikasi berfokus pada tingkat ketertarikan (suhu prospek), fitur Kategori ini berfungsi untuk mengelompokkan prospek berdasarkan jenis produk, topik, atau segmen pasar yang mereka tanyakan. Hasil dari pedoman pengaturan di menu ini akan secara otomatis diisi oleh AI ke dalam kolom <strong><code>Category*</code></strong> pada file Google Sheets Output Anda.</p>
+<p><img alt="Halaman Kategori Lead" src="../assets/kategori-1.png" /></p>
+<hr />
+<h2 id="cara-mengatur-kategori">🗂️ Cara Mengatur Kategori</h2>
+<p>Pada halaman konfigurasi Kategori, Anda dapat membuat beberapa kelompok kategori sesuai dengan lini bisnis Anda. Terdapat dua kolom isian utama yang perlu Anda lengkapi pada setiap blok Kategori Lead:</p>
+<ul>
+<li><strong>Nama kategori (Wajib):</strong> Tuliskan nama kelompok atau kategori utama dari prospek tersebut. Teks yang Anda ketikkan di sini (misalnya: <em>E-commerce, Pakaian Pria, Jasa Konsultasi</em>) adalah teks pasti yang akan dikirimkan oleh AI ke dalam kolom <code>Category*</code> di Output Sheet.</li>
+<li><strong>Kondisi Kategori:</strong> Masukkan instruksi, kata kunci, atau kondisi opsional agar AI tahu kapan harus mengelompokkan pelanggan ke dalam kategori ini.<ul>
+<li><em>Contoh:</em> "Masukkan ke kategori ini jika pelanggan bertanya tentang layanan pembuatan website, toko online, atau menanyakan harga domain."</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="menambah-menghapus-kategori">➕ Menambah &amp; Menghapus Kategori</h2>
+<ul>
+<li><strong>Tambah Kategori:</strong> Anda bebas mengelompokkan prospek ke dalam banyak kategori. Cukup klik tombol <strong>+ Tambah Kategori</strong> di bagian bawah kotak untuk memunculkan blok pengaturan kategori baru.</li>
+<li><strong>Hapus Kategori:</strong> Jika ada kategori yang sudah tidak digunakan atau salah input, Anda bisa menghapusnya dengan mengklik ikon <strong>tempat sampah</strong> berwarna merah di sudut kanan atas blok kategori yang bersangkutan.</li>
+</ul>
+<hr />
+<h2 id="menyimpan-pengaturan">💾 Menyimpan Pengaturan</h2>
+<p>Setelah Anda selesai menyusun semua kategori beserta kondisinya, jangan lupa untuk selalu mengklik tombol hijau <strong>Simpan</strong> yang berada di kotak sebelah kanan layar. Hal ini memastikan Bot AI segera menggunakan pedoman kategori terbaru Anda untuk mengkategorikan prospek.</p>
 
 
 

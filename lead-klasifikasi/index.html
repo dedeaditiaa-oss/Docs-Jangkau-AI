@@ -77,6 +77,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#klasifikasi-lead" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -800,6 +805,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Klasifikasi
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -817,6 +842,47 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cara-mengatur-klasifikasi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎛️ Cara Mengatur Klasifikasi
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mengelola-klasifikasi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ➕ Mengelola Klasifikasi
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -930,6 +996,60 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Agen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pembayaran/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pembayaran
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -947,6 +1067,38 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cara-mengatur-klasifikasi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎛️ Cara Mengatur Klasifikasi
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mengelola-klasifikasi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ➕ Mengelola Klasifikasi
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -963,9 +1115,29 @@
 
 
 
-  <h1>Klasifikasi</h1>
-
-
+<h1 id="klasifikasi-lead">⭐ Klasifikasi Lead</h1>
+<p>Fitur <strong>Klasifikasi</strong> pada Bot Lead Generation berfungsi untuk menilai dan mengategorikan tingkat ketertarikan prospek (pelanggan) yang berinteraksi dengan bot Anda. </p>
+<p>Pengaturan pada menu ini <strong>terhubung dan terintegrasi langsung dengan Output Sheet Anda.</strong> Label klasifikasi yang diberikan oleh AI berdasarkan percakapan akan secara otomatis diisi ke dalam kolom <strong><code>Interest Level</code></strong> pada file Google Sheets tersebut.</p>
+<p><img alt="Tampilan Kolom Output Sheet" src="../assets/klasifikasi-1.png" /></p>
+<hr />
+<h2 id="cara-mengatur-klasifikasi">🎛️ Cara Mengatur Klasifikasi</h2>
+<p>Pada halaman konfigurasi ini, Anda dapat merancang tolok ukur untuk menyaring potensial lead.</p>
+<p><img alt="Halaman Klasifikasi" src="../assets/klasifikasi-2.png" /></p>
+<p>Terdapat dua kolom utama yang harus Anda lengkapi pada setiap blok Klasifikasi Lead:</p>
+<ul>
+<li><strong>Jenis Klasifikasi (Wajib):</strong> Tuliskan nama label atau tingkat ketertarikannya. Misalnya, Anda bisa mengisinya dengan <em>Low, Medium, High</em> atau <em>Cold, Warm, Hot</em>. Teks yang Anda masukkan di sini adalah teks pasti yang akan diinput oleh AI ke dalam kolom <code>Interest Level</code> di Output Sheet.</li>
+<li><strong>Kondisi Klasifikasi:</strong> Kolom ini berisi instruksi khusus, parameter, atau kata kunci untuk AI. Anda bisa menjabarkan kondisi seperti apa yang membuat prospek masuk ke dalam klasifikasi tersebut.<ul>
+<li><em>Contoh untuk label High:</em> "Pelanggan aktif bertanya tentang harga, ingin melakukan pemesanan, atau meninggalkan nomor telepon."</li>
+<li><em>Contoh untuk label Low:</em> "Pelanggan hanya membalas singkat, menolak penawaran, atau tiba-tiba berhenti merespons (idle)."</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="mengelola-klasifikasi">➕ Mengelola Klasifikasi</h2>
+<ul>
+<li><strong>Tambah Parameter:</strong> Anda bebas menentukan berapa banyak tingkatan klasifikasi yang digunakan oleh bisnis Anda. Klik tombol <strong>+ Tambah Klasifikasi</strong> yang terletak di bagian bawah kotak untuk menambahkan tingkatan baru.</li>
+<li><strong>Menyimpan Data:</strong> Setelah semua skenario klasifikasi selesai dibuat, pastikan Anda selalu mengklik tombol hijau <strong>Simpan</strong> di panel sebelah kanan agar AI segera memperbarui cara kerjanya.</li>
+</ul>
 
 
 
