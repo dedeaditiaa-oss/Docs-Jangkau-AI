@@ -37,7 +37,14 @@ nav:
       - Informasi Website : website.md
       - Jenis Bot : 
           - Booking/Reservasi : booking.md
-          - Support Helpdesk : support.md
+          - Support Helpdesk : 
+              - Pengaturan : cs-pengaturan.md
+              - File : cs-file.md
+              - QnA : cs-qna.md
+              - Kategori Tiket : cs-kategori.md 
+              - Prioritas Tiket : cs-prioritas.md
+              - Penomoran Otomatis : cs-penomoran.md
+              - Pengaturan Pengingat : cs-pengingat.md
           - Lead Generation: 
               - Katalog Produk: lead-katalog.md
               - Pengaturan: lead-pengaturan.md

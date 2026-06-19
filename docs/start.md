@@ -29,7 +29,6 @@ Langkah terakhir adalah menugaskan Bot AI yang sudah Anda buat agar memegang ken
 ---
 
 ## 🎉 Selamat, Bot AI Anda Sudah Aktif!
-Sekarang, cobalah kirimkan pesan uji coba menggunakan nomor WhatsApp lain ke nomor WhatsApp bisnis Anda tersebut. Bot AI akan langsung merespons obrolan tersebut secara otomatis selama 24/7!
 
 ---
 

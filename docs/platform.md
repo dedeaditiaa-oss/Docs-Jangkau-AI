@@ -81,6 +81,12 @@ Kotak masuk Anda sudah siap! Anda telah berhasil menyelesaikan pembuatan channel
 
 1. Salin kode JavaScript yang muncul di layar dengan mengklik tombol **Salin** di sudut kanan atas kotak kode.
 2. Tempel (*paste*) kode tersebut di dalam struktur HTML website Anda 
+3. Nantinya akan terdapat tombol chat di website anda seperti gambar berikut
+
+![Tampilan Website](assets/website-1.png) 
+Bot AI terlihat di pojok kanan bawah dari website
+
+![Tampilan Website](assets/website-2.png)
 
 ---
 
